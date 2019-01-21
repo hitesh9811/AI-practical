@@ -1,0 +1,2 @@
+sumlist1([S],S).
+sumlist1([H1,H2|T], R) :- S is H1+H2 , sumlist1([S|T],R).

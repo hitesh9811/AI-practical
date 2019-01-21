@@ -1,0 +1,2 @@
+insert(X,1,L,[X|L]).
+insert(X,P,[H|T],[H|T2]):- P1 is P-1, insert(X,P1,T,T2).
